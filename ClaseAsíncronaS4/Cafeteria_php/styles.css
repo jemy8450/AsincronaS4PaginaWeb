@@ -1,0 +1,108 @@
+/* ===== Estilos generales ===== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f4f0;
+    margin: 20px;
+}
+
+header, footer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #6b3e26;
+}
+
+/* ===== Contenedor de productos (productos.php) ===== */
+.contenedor-productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Tarjeta de producto */
+.producto {
+    width: 220px;          /* marco definido */
+    padding: 15px;
+    margin: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Imágenes uniformes */
+.producto img {
+    width: 150px;          /* ancho fijo */
+    height: 150px;         /* alto fijo */
+    object-fit: cover;     /* recorta la imagen para encajar sin deformarse */
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ===== Estilos para index.php ===== */
+
+/* Encabezado */
+.encabezado {
+    text-align: center;
+    background-color: #6b3e26;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Sección equipo */
+.equipo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.tarjetas-equipo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.tarjeta {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 150px;
+    padding: 15px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Botón de navegación */
+.navegacion {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.boton {
+    background-color: #6b3e26;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #8c5a3a;
+}
+
+/* Pie de página */
+.pie {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #333;
+}
